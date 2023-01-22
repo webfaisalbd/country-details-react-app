@@ -15,8 +15,8 @@ const Countries = () => {
   return (
     <section className='p-4 grid place-items-center grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8'>
       {
-        countries.map((country, i) => (
-          <Country key={i} {...country} />
+        countries.map((country) => (
+          <Country key={country.name.common} {...country} />
         ))
       }
     </section>
