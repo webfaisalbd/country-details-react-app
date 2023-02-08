@@ -32,7 +32,7 @@ const SingleCountry = () => {
                             <p className='text-gray-600'>Population: {item?.population.toLocaleString()}</p>
                             <p className='text-gray-600'>Region: {item?.region}</p>
                             <p className='text-gray-600'>Subregion: {item?.subregion}</p>
-                            <p> <span className='font-bold'>Borders:</span> 
+                            <div> <span className='font-bold'>Borders:</span> 
                                 <ul className="flex gap-2">
                                     {
                                        item.borders ? item.borders.map((ele, i) => {
@@ -42,7 +42,7 @@ const SingleCountry = () => {
                                         }) : "No Border"
                                     }
                                 </ul>
-                            </p>
+                            </div>
 
                             <Link to="/"><p className='mt-4 text-lg px-2 py-1 bg-slate-300 rounded inline-block hover:bg-emerald-300'><i className='bx bx-left-arrow-alt'></i> Back</p></Link>
 
