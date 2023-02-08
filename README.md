@@ -1,6 +1,6 @@
 # Country Details
 
-website demo: https://webfaisalbd.github.io/country-details-react-app
+website demo: https://country-details-react-project.netlify.app
 
 - search by country name
 - click the specific country for getting more information about the country
